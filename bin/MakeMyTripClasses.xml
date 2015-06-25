@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="Sanity"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="locators.LoginPage" />
+			<class name="locators.NavHomePage" />
+			<class name="locators.SelectBus" />
+			<class name="locators.EnterUserDetails" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="locators.SelectBus">
+        <methods>
+          <include name="Bus"/>
+        </methods>
+      </class> <!-- locators.SelectBus -->
+      <class name="locators.NavHomePage">
+        <methods>
+          <include name="Homepage"/>
+        </methods>
+      </class> <!-- locators.NavHomePage -->
+      <class name="locators.EnterUserDetails">
+        <methods>
+          <include name="UserDetails"/>
+        </methods>
+      </class> <!-- locators.EnterUserDetails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
